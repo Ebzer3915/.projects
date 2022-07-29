@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+
+.heading{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family:monospace;
+    font-size: 20px;
+}
+
+img[class="logo"]{
+    border-radius: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.Recipes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+
+.RecipeImg img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(146, 209, 228);
+}
+
+.foodDption{
+    text-align: center;
+    padding: 0.1px 0px 25px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+border-radius: 5%;
+}
+
+.contents{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img[type="linkImage"]{
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 600px;
+    padding-bottom:10px ;
+}
+
+/*img[type="linkImage"], .Ingredients{
+    display: flex;
+    flex-direction: row;
+}*/
+
+.Ingredients{
+    border:3px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    height: 420px;
+    width: 595px;
+}
+
+.steps{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 625px;
+    margin-left: 670px;
+    margin-top: -650px;
+}
+
+.description{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: none;
+}
+
+.Ingredients-chickenPot{
+    border:3px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    height: 1000px;
+    width: 595px;
+}
+
+.steps-chickenPot{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 1215px;
+    margin-left: 670px;
+    margin-top: -1240px;
+}
+
+.description-chickenPot{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: none;
+}
+
+.Ingredients-aussieChicken{
+    border:3px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    height: 700px;
+    width: 595px;
+}
+
+.steps-aussieChicken{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 920px;
+    margin-left: 670px;
+    margin-top: -940px;
+}
+
+.description-aussieChicken{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: none;
+}
+
+.Ingredients-bakedChicken{
+    border:3px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+    height: 450px;
+    width: 595px;
+}
+
+.steps-bakedChicken{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 670px;
+    margin-left: 670px;
+    margin-top: -690px;
+}
+
+.description-bakedChicken{
+    border:3px solid rgb(17, 16, 16);
+    border-radius: 20px;
+    background-color: beige;
+    width: 1150px;
+    height: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: none;
+}
+
+ul{
+    font-family:cursive;
+    font-size: 140%;
+    margin-left: 10px;
+
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+h3{
+    margin-left: 10px;
+    font-family:fantasy;
+    font-size: 160%;
+}
+
+ol{
+    font-family:cursive;
+    margin-left: 10px;
+    font-size: 140%;
+}
+
+p[type="paraInLink"]{
+    font-family: cursive;
+    font-size: 140%;
+    margin-left: 30px;
+    padding-top: -10px ;
+}
